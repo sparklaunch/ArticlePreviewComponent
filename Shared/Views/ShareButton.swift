@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ShareButton: View {
+    let disableShare: () -> Void
     var body: some View {
         Button {
-
+            disableShare()
         } label: {
             Image("Share")
                 .renderingMode(.template)

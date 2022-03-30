@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Author: View {
+    @State private var shareVisible: Bool = false
     var body: some View {
         HStack {
             Image("Michelle")
@@ -28,7 +29,9 @@ struct Author: View {
             }
             Spacer()
             Button {
-
+                withAnimation(.easeInOut(duration: 0.3)) {
+                    shareVisible = true
+                }
             } label: {
                 Image("Share")
                     .resizable()
@@ -45,7 +48,7 @@ struct Author: View {
                     .offset(y: 5)
                 HStack(spacing: 20) {
                     Text("SHARE")
-                        .kerning(3)
+                        .kerning(5)
                         .font(.body)
                         .fontWeight(.light)
                         .foregroundColor(Color("BodyColor"))
@@ -55,9 +58,14 @@ struct Author: View {
                         SocialMediaLink(socialMedia: "Pinterest")
                     }
                     Spacer()
-                    ShareButton()
+                    ShareButton {
+                        withAnimation(.easeInOut(duration: 0.3)) {
+                            shareVisible = false
+                        }
+                    }
                 }
             }
+                .opacity(shareVisible ? 1 : .zero)
         )
     }
 }

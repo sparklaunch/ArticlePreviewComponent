@@ -11,7 +11,7 @@ struct SocialMediaLink: View {
     let socialMedia: String
     var body: some View {
         Button {
-
+// TODO: Social Media Link.
         } label: {
             Image(socialMedia)
                 .resizable()
