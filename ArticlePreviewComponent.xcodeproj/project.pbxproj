@@ -54,9 +54,9 @@
 		909D66A027F46DE70012E3B9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				909D66A127F46DE70012E3B9 /* ArticlePreviewComponentApp.swift */,
-				909D66A227F46DE70012E3B9 /* ContentView.swift */,
-				909D66A327F46DE80012E3B9 /* Assets.xcassets */,
+				909D66C127F46E650012E3B9 /* Models */,
+				909D66C027F46E570012E3B9 /* App */,
+				909D66BF27F46E4E0012E3B9 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +76,30 @@
 				909D66B027F46DE80012E3B9 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		909D66BF27F46E4E0012E3B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				909D66A227F46DE70012E3B9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		909D66C027F46E570012E3B9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				909D66A327F46DE80012E3B9 /* Assets.xcassets */,
+				909D66A127F46DE70012E3B9 /* ArticlePreviewComponentApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		909D66C127F46E650012E3B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
