@@ -12,7 +12,7 @@ struct Overlay: View {
     var body: some View {
         ZStack {
             Color("TitleColor")
-                .scaleEffect(x: 1.2, y: 2, anchor: .center)
+                .scaleEffect(x: 1.3, y: 2, anchor: .center)
                 .offset(y: 5)
             HStack(spacing: 20) {
                 Text("SHARE")
