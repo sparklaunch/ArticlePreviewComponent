@@ -42,29 +42,11 @@ struct Author: View {
             }
         }
         .overlay(
-            ZStack {
-                Color("TitleColor")
-                    .scaleEffect(x: 1.2, y: 2, anchor: .center)
-                    .offset(y: 5)
-                HStack(spacing: 20) {
-                    Text("SHARE")
-                        .kerning(5)
-                        .font(.body)
-                        .fontWeight(.light)
-                        .foregroundColor(Color("BodyColor"))
-                    HStack(spacing: 15) {
-                        SocialMediaLink(socialMedia: "Facebook")
-                        SocialMediaLink(socialMedia: "Twitter")
-                        SocialMediaLink(socialMedia: "Pinterest")
-                    }
-                    Spacer()
-                    ShareButton {
-                        withAnimation(.easeInOut(duration: 0.3)) {
-                            shareVisible = false
-                        }
-                    }
+            Overlay(disableShareVisible: {
+                withAnimation(.easeInOut(duration: 0.3)) {
+                    shareVisible = false
                 }
-            }
+            })
                 .opacity(shareVisible ? 1 : .zero)
         )
     }

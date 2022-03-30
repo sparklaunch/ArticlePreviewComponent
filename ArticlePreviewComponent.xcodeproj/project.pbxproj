@@ -18,6 +18,7 @@
 		909D66C727F4737B0012E3B9 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66C627F4737B0012E3B9 /* Author.swift */; };
 		909D66C927F50A890012E3B9 /* SocialMediaLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66C827F50A890012E3B9 /* SocialMediaLink.swift */; };
 		909D66CB27F50E780012E3B9 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66CA27F50E780012E3B9 /* ShareButton.swift */; };
+		909D66CD27F5120E0012E3B9 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66CC27F5120E0012E3B9 /* Overlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		909D66C627F4737B0012E3B9 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		909D66C827F50A890012E3B9 /* SocialMediaLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaLink.swift; sourceTree = "<group>"; };
 		909D66CA27F50E780012E3B9 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		909D66CC27F5120E0012E3B9 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				909D66C627F4737B0012E3B9 /* Author.swift */,
 				909D66C827F50A890012E3B9 /* SocialMediaLink.swift */,
 				909D66CA27F50E780012E3B9 /* ShareButton.swift */,
+				909D66CC27F5120E0012E3B9 /* Overlay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				909D66CB27F50E780012E3B9 /* ShareButton.swift in Sources */,
 				909D66B327F46DE80012E3B9 /* ContentView.swift in Sources */,
+				909D66CD27F5120E0012E3B9 /* Overlay.swift in Sources */,
 				909D66C927F50A890012E3B9 /* SocialMediaLink.swift in Sources */,
 				909D66C327F470630012E3B9 /* Card.swift in Sources */,
 				909D66C527F472E80012E3B9 /* Main.swift in Sources */,
