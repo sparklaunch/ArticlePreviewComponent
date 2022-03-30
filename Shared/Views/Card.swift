@@ -24,3 +24,10 @@ struct Card: View {
         .shadow(radius: 20)
     }
 }
+
+struct Card_Previews: PreviewProvider {
+    static var previews: some View {
+        Card()
+            .previewLayout(.sizeThatFits)
+    }
+}

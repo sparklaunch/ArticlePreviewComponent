@@ -69,3 +69,10 @@ struct Author: View {
         )
     }
 }
+
+struct Author_Previews: PreviewProvider {
+    static var previews: some View {
+        Author()
+            .previewLayout(.sizeThatFits)
+    }
+}
