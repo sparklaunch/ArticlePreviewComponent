@@ -16,6 +16,7 @@
 		909D66C327F470630012E3B9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66C227F470630012E3B9 /* Card.swift */; };
 		909D66C527F472E80012E3B9 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66C427F472E80012E3B9 /* Main.swift */; };
 		909D66C727F4737B0012E3B9 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66C627F4737B0012E3B9 /* Author.swift */; };
+		909D66C927F50A890012E3B9 /* SocialMediaLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D66C827F50A890012E3B9 /* SocialMediaLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		909D66C227F470630012E3B9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		909D66C427F472E80012E3B9 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		909D66C627F4737B0012E3B9 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		909D66C827F50A890012E3B9 /* SocialMediaLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				909D66C227F470630012E3B9 /* Card.swift */,
 				909D66C427F472E80012E3B9 /* Main.swift */,
 				909D66C627F4737B0012E3B9 /* Author.swift */,
+				909D66C827F50A890012E3B9 /* SocialMediaLink.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				909D66B327F46DE80012E3B9 /* ContentView.swift in Sources */,
+				909D66C927F50A890012E3B9 /* SocialMediaLink.swift in Sources */,
 				909D66C327F470630012E3B9 /* Card.swift in Sources */,
 				909D66C527F472E80012E3B9 /* Main.swift in Sources */,
 				909D66B127F46DE80012E3B9 /* ArticlePreviewComponentApp.swift in Sources */,

@@ -38,5 +38,24 @@ struct Author: View {
                     .clipShape(Circle())
             }
         }
+        .overlay(
+            ZStack {
+                Color("TitleColor")
+                HStack {
+                    Text("SHARE")
+                        .kerning(3)
+                        .font(.caption2)
+                        .fontWeight(.light)
+                        .foregroundColor(Color("BodyColor"))
+                    HStack {
+                        SocialMediaLink(socialMedia: "Facebook")
+                        SocialMediaLink(socialMedia: "Twitter")
+                        SocialMediaLink(socialMedia: "Pinterest")
+                    }
+                }
+            }
+                .scaleEffect(2.2)
+                .offset(y: 30)
+        )
     }
 }
