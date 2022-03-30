@@ -15,7 +15,7 @@ struct SocialMediaLink: View {
         } label: {
             Image(socialMedia)
                 .resizable()
-                .frame(width: 16, height: 16)
+                .frame(width: 30, height: 30)
         }
     }
 }

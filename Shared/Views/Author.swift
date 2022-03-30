@@ -41,21 +41,23 @@ struct Author: View {
         .overlay(
             ZStack {
                 Color("TitleColor")
-                HStack {
+                    .scaleEffect(x: 1.2, y: 2, anchor: .center)
+                    .offset(y: 5)
+                HStack(spacing: 20) {
                     Text("SHARE")
                         .kerning(3)
-                        .font(.caption2)
+                        .font(.body)
                         .fontWeight(.light)
                         .foregroundColor(Color("BodyColor"))
-                    HStack {
+                    HStack(spacing: 15) {
                         SocialMediaLink(socialMedia: "Facebook")
                         SocialMediaLink(socialMedia: "Twitter")
                         SocialMediaLink(socialMedia: "Pinterest")
                     }
+                    Spacer()
+                    ShareButton()
                 }
             }
-                .scaleEffect(2.2)
-                .offset(y: 30)
         )
     }
 }
